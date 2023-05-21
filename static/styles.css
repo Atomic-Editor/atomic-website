@@ -1,0 +1,78 @@
+html {
+    background-color: rgb(27,27,27);
+}
+
+body {
+    background: rgb(27,27,27);
+    background: linear-gradient(10deg, rgba(27,27,27,1) 45%, rgba(23,70,14,1) 100%); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1b1b1b",endColorstr="#17460e",GradientType=1); 
+    
+    margin: 0;
+
+    height: 100%;
+
+    text-align: center;
+    font-family: 'DejaVu Sans ExtraLight';
+    color: white;
+    font-size: 18px;
+
+    transition: background 0.5s ease;
+}
+
+@font-face {
+    font-family: 'DejaVu Sans ExtraLight';
+    src: url('fonts/DejaVuSans-ExtraLight.ttf');
+}
+
+.logo {
+    max-height: 200px;
+    max-width: 400px;
+    text-align: center;
+}
+
+hr {
+    color: white;
+    max-width: 400px;
+}
+
+h1 {
+    font-size: 26px;
+}
+
+a {
+    color: white;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+a:hover {
+    color: lightgrey;
+}
+
+#download {
+    outline: 0;
+    border-radius: 2px;
+    border: 2px solid rgb(255, 255, 255);
+    font-size: 18px;
+    background-color: rgb(43, 43, 43);
+    color: white;
+    font-weight: bolder;
+    padding: 5px 30px 5px 30px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-bottom: 10px;
+}
+
+#download:hover {
+    background-color: rgb(33, 33, 33);
+}
+
+#download img {
+    height: 22px;
+    width: 22px;
+    text-align: center;
+    vertical-align: middle;
+}
